@@ -13,7 +13,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+<<<<<<< HEAD
+    "test": "react-scripts test --env=jsdom",
+    "test:ci": "cross-env CI=true react-scripts test",
+=======
     "test": "react-scripts test",
+>>>>>>> 485ce20156377d1a51c2ebd1d6527ec6eb3c6fca
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
