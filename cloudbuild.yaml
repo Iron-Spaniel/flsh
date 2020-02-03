@@ -12,5 +12,5 @@ steps:
     args: ["run", "build"]
 
   # Deploy
-  - name: "gcr.io/$brilliant-era-265717/firebase"
+  - name: "gcr.io/brilliant-era-265717/firebase"
     args: ["deploy"]
