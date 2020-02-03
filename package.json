@@ -14,7 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "test:ci": "cross-env CI=true react-scripts test",
+    "test:ci": "CI=true react-scripts test --no-watchman --all",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
